@@ -5,4 +5,5 @@ RUN ls -dla /usr/local/lib/node_modules
 RUN npm install -g phantomjs-prebuilt
 RUN npm install -g uncss
 
-CMD [ "/bin/bash" ]
+ENTRYPOINT []
+CMD []
